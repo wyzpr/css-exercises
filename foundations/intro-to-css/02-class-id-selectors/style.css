@@ -1,0 +1,18 @@
+.odd {
+    background-color: pink;
+    font-family: Verdana,'DejaVu Sans',sans-serif;
+}
+
+.extra {
+    font-size: 24px;
+}
+
+#type-a {
+    color: blue;
+    font-size: 36px;
+}
+
+#type-b {
+    background-color: lightgreen;
+    font-weight: bold;
+}
