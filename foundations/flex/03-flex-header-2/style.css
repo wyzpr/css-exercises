@@ -9,9 +9,12 @@ body {
 }
 
 .header {
+  padding: 8px;
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -22,11 +25,23 @@ body {
   height: 48px;
 }
 
+.first-half, .second-half {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
 .logo {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
 }
 
 button {
